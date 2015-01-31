@@ -1,0 +1,48 @@
+#rf_boxes  {
+	position:relative;
+	border-style:solid;
+	min-height:400px;
+	max-width:400px;
+	left:150px;
+}
+
+#rf_title {
+	text-align: center;
+	width:  400px;
+	margin-left: 150px;
+}
+.rf_box {
+	position:absolute;
+}
+
+.rf_y_axis {
+	position: absolute;
+	left: -45px;
+	text-align: right;
+	min-width: 40px;
+}
+
+.rf_box_blue {
+        background-color: #0000FF;
+}
+.rf_box_red {
+        background-color: #FF0000;
+}
+.rf_box_grey {
+        background-color: #777777;;
+}
+
+path {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+
+line {
+	stroke: black;
+}
+
+text {
+	font-family: Arial;
+	font-size: 9pt;
+}
